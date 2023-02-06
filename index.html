@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Software House Portfolio</title>
-<!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
-    <!-- JavaScript and dependencies -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="js/bootstrap.js">
 </head>
 <body>
 <!-- Navbar -->
 <nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar">
   <div class="container">
     <a class="navbar-brand"" href="#">
-      <img class="logo" src="./" /> SoftwareHouse
+      <img class="logo" src="./images/websecurity.jpeg" /> SoftwareHouse
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -39,6 +36,10 @@
   </div>
 </nav>
 <!-- End Navbar -->
+<br>
+<br>
+<br>
+<br>
 <!-- Hero section -->
 <section id="hero">
   <div class="container">
@@ -49,7 +50,7 @@
         <button type="button" class="btn btn-dark btn-large">Learn more</button>
       </div>
       <div class="col img-col">
-        <img src="./" class="img-fluid" alt="Software Development">
+        <img src="./images/cybersec.jpeg" class="img-fluid" alt="Software Development">
       </div>
     </div>
     <div class="row cards">
@@ -57,7 +58,7 @@
       <div class="col-md-4 d-flex justify-content-center">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <img src="./images/" class="icon" alt="Service One"/>
+            <img src="./images/webdevelop.png" class="icon" alt="Service One"/>
             <h5 class="card-title">Web Dev</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
@@ -67,7 +68,7 @@
       <div class="col-md-4 d-flex justify-content-center">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <img src="./images/" class="icon" alt="Service Two"/>
+            <img src="./images/machinelearning1.jpeg" class="icon" alt="Service Two"/>
             <h5 class="card-title">Machine Learning</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
@@ -77,7 +78,7 @@
       <div class="col-md-4 d-flex justify-content-center">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <img src="" class="icon" alt="Service Three"/>
+            <img src="./images/websec.jpeg" class="icon" alt="Service Three"/>
             <h5 class="card-title">Security</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
@@ -88,6 +89,95 @@
   </div>
 </section>
 <!-- End Hero section -->
+<!-- About us section -->
+<section id="about-us">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col">
+        <img src="./images/websec.jpeg" class="img-fluid" alt="About Us">
+      </div>
+      <div class="col text-col">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+        <button type="button" class="btn btn-dark btn-large">Let's meet</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About us section -->
+<!-- Projects section -->
+<section id="projects">
+<div class="container">
+  <div class="row align-items-center projects">
+    <div class="col">
+      <h1>Our Projects</h1>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+    </div>
+  </div>
+
+  <div class="row align-items-center">
+    <div class="col">
+      <div class="card mb-3">
+        <img src="./assets/projects/project1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Investment App</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">React Native, Java, REST Api</small></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card mb-3">
+        <img src="./assets/projects/project2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">My Doc</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Kotlin, REST Api</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row align-items-center">
+    <div class="col">
+      <div class="card mb-3">
+        <img src="./assets/projects/project3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Socialize</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Flutter, Machine Learning Algrithms, Python, NodeJS</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-3">
+        <img src="./assets/projects/project4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Give Me A Ride</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Google Api, Golang, Swift</small></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+<!-- End Projects section -->
+<!-- Contact section -->
+<section id="contact">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col">
+        <h1>Contact US</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact section -->
 
 </body>
 </html>

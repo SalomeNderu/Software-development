@@ -64,3 +64,15 @@ button {
   height: 50px;
   margin-bottom: 20px;
 }
+#projects .projects {
+  margin-bottom: 50px;
+}
+#contact {
+  text-align: center;
+  background-color: #683aa4;
+  color: white;
+}
+#contact h1 {
+  text-align: center;
+  color: white;
+}
